@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    
+  }
+  
+  li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #24252A;
+    text-decoration: none;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    /*background: linear-gradient(
+      217deg,
+      rgba(0, 255, 0, 0),
+      rgba(0, 255, 0, 0) 70.71%
+    ), linear-gradient(127deg, #bb0707, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0), rgba(0, 0, 255, 0) 70.71%);*/
+    background: linear-gradient(#1a1a1a, 1%, rgba(0, 0, 255, 0) 70.71%);
+ 
+  }
+.logo{
+      max-width: 50%;
+      max-height: 50%;
+      border-radius: 15px;
+      height: 170px;
+      width: 170px;
+      margin: 10px 20px 0 50px;
+     }
+  
+     .h1header{
+        margin-right:auto;
+        color: rgb(255, 255, 255);
+        background-color: #1b1a1a; 
+        border-radius:15px ;
+        padding: 1rem;
+       }
+  
+  .nav__links{
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav__links li a{
+    transition: all 0.3s ease 0s;
+    color: rgb(216, 5, 5);
+    cursor: pointer;
+  }
+  
+  .nav__links li a:hover {
+    color: green;
+    -webkit-text-stroke: 1px green;
+    
+  }
+
+  button {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 9px 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  button:hover {
+    background-color: #bb0707;
+    color: azure;
+    transform: translateY(-3px) scale(1.05);
+  }

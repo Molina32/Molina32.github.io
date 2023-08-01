@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/paginaprincipal/fondoreservas.jpg);
+  }
+  
+  .container {
+    max-width: 400px;
+    margin-right: 10px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+/* Estilos para .seccioncontacto .container (misma clase que el CSS inicial) */
+.seccioncontacto .containereservas {
+
+  max-width: 400px;
+  margin-right: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.containereservas {
+  position: absolute;
+  bottom: 18vh;
+  left: 60vh;
+}
+/* Estilos para .seccioncontacto h2 (misma clase que el CSS inicial) */
+.seccioncontacto h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para .seccioncontacto .form-group (misma clase que el CSS inicial) */
+.seccioncontacto .form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilos para .seccioncontacto label (misma clase que el CSS inicial) */
+.seccioncontacto label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Estilos para .seccioncontacto input[type="text"],
+   .seccioncontacto input[type="email"],
+   .seccioncontacto input[type="date"],
+   .seccioncontacto input[type="time"],
+   .seccioncontacto input[type="number"] (misma clase que el CSS inicial) */
+.seccioncontacto input[type="text"],
+.seccioncontacto input[type="email"],
+.seccioncontacto input[type="date"],
+.seccioncontacto input[type="time"],
+.seccioncontacto input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos para .seccioncontacto button.btn (misma clase que el CSS inicial) */
+.seccioncontacto button.btn {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  background-color: crimson;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para .seccioncontacto button.btn:hover (misma clase que el CSS inicial) */
+.seccioncontacto button.btn:hover {
+  background-color: crimson;
+}
+
+/* Estilos para .seccioncontacto button.btn:active (misma clase que el CSS inicial) */
+.seccioncontacto button.btn:active {
+  background-color: crimson;
+}
+
+/* Estilos para .seccioncontacto @media (misma regla de medios que el CSS inicial) */
+@media only screen and (max-width: 480px) {
+  .seccioncontacto .container {
+    padding: 20px;
+  }
+}
+
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button.btn {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.btn:hover {
+    background-color: crimson;
+  }
+  
+  button.btn:active {
+    background-color: crimson;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .container {
+      padding: 20px;
+    }
+  }
